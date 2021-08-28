@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dat.tdd_demo.MainTest" time="0.039" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/test-classes:/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/classes:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jobe/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jobe/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jobe/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jobe/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DK"/>
+    <property name="sun.boot.library.path" value="/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/surefire/surefirebooter6114499250136489441.jar /Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/surefire 2021-08-29T00-17-10_809-jvmRun1 surefire3281885657133780546tmp surefire_0744324752118117414tmp"/>
+    <property name="test" value="dat.tdd_demo.MainTest"/>
+    <property name="surefire.test.class.path" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/test-classes:/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/classes:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jobe/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jobe/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jobe/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/jobe/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jobe/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jobe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.56.0.21-CA-macosx"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo/target/surefire/surefirebooter6114499250136489441.jar"/>
+    <property name="sun.boot.class.path" value="/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/resources.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/rt.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/jsse.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/jce.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/charsets.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/jfr.jar:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_302-b08"/>
+    <property name="user.name" value="jobe"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/Apache NetBeans 12.4.app/Contents/Resources/NetBeans/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/jobe/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0k/fy5vq80j4c11mr72gd9r8np40000gp/T/"/>
+    <property name="java.version" value="1.8.0_302"/>
+    <property name="user.dir" value="/Users/jobe/Documents/Dat32021Fall_code/week_01_intro/03_wednesday/tdd_demo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jobe/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.302-b08"/>
+    <property name="java.ext.dirs" value="/Users/jobe/Library/Java/Extensions:/Users/jobe/Library/Java/JavaVirtualMachines/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64/zulu-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="greetNotUppercaseTest" classname="dat.tdd_demo.MainTest" time="0.023"/>
+  <testcase name="testMain" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetMixedNamesWithCommasTest" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetUppercaseTest" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetTwoNamesTest" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetMixedNamesTest" classname="dat.tdd_demo.MainTest" time="0.001"/>
+  <testcase name="greetNullTest" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetNamesTest" classname="dat.tdd_demo.MainTest" time="0"/>
+  <testcase name="greetMixedNamesWithDelimetedCommasTest" classname="dat.tdd_demo.MainTest" time="0.001"/>
+  <testcase name="greetTest" classname="dat.tdd_demo.MainTest" time="0.001"/>
+</testsuite>
